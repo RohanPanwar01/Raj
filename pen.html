@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #333;
+        }
+         .grid-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 10px;
+            padding: 20px;
+            text-align: center;
+            margin-left: 50px;
+        }
+
+        .grid-item {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            width: 100px;
+            height: 100px;
+            transition: all 1s ease-out;
+        }
+        .vijay{
+            background-image: url(montex.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .navneet{
+            background-image: url(roritologo.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .classmate{
+            background-image: url(cello.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .nakoda{
+            background-image: url(goldex.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .shape{
+            background-image: url(local.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .grid-item:hover {
+            cursor: pointer;
+            transform: scale(1.2);
+            ;
+        }
+        @media screen and (max-width: 600px) {
+            .grid-container {
+                grid-template-columns: auto;
+            }
+        }
+        @media screen and (max-width: 600px) {
+            .grid-item {
+                grid-template-columns: auto;
+                width: 200px;
+                height: 200px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar" id="navbar">
+        <img src="logo.png" alt="">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="tel:+917489522034" style="font-size:20px;"><i class='bx bxl-whatsapp'
+                style='color:#75fb13'></i></a>
+         <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">
+           &#9776;
+         </a>
+       </div>
+    <div class="ram">
+        <h3>!! जय श्री राम !!</h3>
+    </div>
+
+    <div class="header">
+        <h1>PEN</h1>
+    </div>
+    <div class="grid-container">
+       <a href="montexpen.html"><div class="grid-item vijay"></div></a>
+       <a href="roritopen.html"> <div class="grid-item navneet"></div></a>
+      <a href="cellopen.html">  <div class="grid-item classmate"></div></a>
+       <a href="goldexpen.html"> <div class="grid-item nakoda"></div></a>
+       <a href="localpen.html"> <div class="grid-item shape"></div></a>
+    </div>
+</body>
+</html>

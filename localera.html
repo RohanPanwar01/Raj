@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>RAJ GENERAL STORE</title>
+    <link rel="icon" href="logo.png">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+          body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: white;
+        }
+         .grid-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            padding: 20px;
+            text-align: center;
+            margin-left: 50px;
+        }
+
+        .grid-item {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+        }
+        .vijay{
+            background-image: url(vijay.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .navneet{
+            background-image: url(navneet.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .classmate{
+            background-image: url(classmate.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .nakoda{
+            background-image: url(nakoda.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .shape{
+            background-image: url(shape.png);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .grid-item:hover {
+            cursor: pointer;
+            ;
+        }
+        @media screen and (max-width: 600px) {
+            .grid-container {
+                grid-template-columns: auto;
+            }
+        }
+        @media screen and (max-width: 600px) {
+            .grid-item {
+                grid-template-columns: auto;
+              
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar" id="navbar">
+        <img src="logo.png" alt="">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+        <a href="tel:+917489522034" style="font-size:20px;"><i class='bx bxl-whatsapp'
+                style='color:#75fb13'></i></a>
+         <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">
+           &#9776;
+         </a>
+       </div>
+    <div class="ram">
+        <h3>!! जय श्री राम !!</h3>
+    </div>
+
+    <div class="header">
+        <h1>LOCAL ERASER</h1>
+    </div>
+    <div class="grid-container">
+       <div class="grid-item">
+        <img src=" localera.jpg" alt="">
+        <h3>LOCAL ERASER</h3>
+         
+        <p>MRP:</p>
+       </div>
+       <div class="grid-item">
+        <img src=" localera.jpg" alt="">
+        <h3>LOCAL ERASER</h3>
+         
+        <p>MRP:</p>
+       </div>
+      <div class="grid-item">
+        <img src=" localera.jpg" alt="">
+        <h3>LOCAL ERASER</h3>
+         
+        <p>MRP:</p>
+      </div>
+       <div class="grid-item">
+        <img src=" localera.jpg" alt="">
+        <h3>LOCAL ERASER</h3>
+         
+        <p>MRP:</p>
+       </div>
+    </div>
+</body>
+</html>
